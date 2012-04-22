@@ -1,6 +1,6 @@
 post_install() {
 	cat <<-EndOfMessage
-	==> Please, write 'virtualmin-nginx' to the end of the /etc/webmin/webmin.acl
+	==> Please, write 'nginx' to the end of the /etc/webmin/webmin.acl
 
 	==> END
 	EndOfMessage
