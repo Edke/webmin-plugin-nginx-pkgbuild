@@ -1,16 +1,16 @@
 # Maintainer: Eduard Kracmar <edke.kraken[at]gmail[dot]com>
 # Contributor: vbPadre <vbpadre at gmail dot com>
 
-pkgname=webmin-nginx-plugin
+pkgname=webmin-plugin-nginx
 pkgver=0.05b
 pkgrel=1
-pkgdesc="Justin Hoffman's Nginx plugin for webmin"
+pkgdesc="Justin Hoffman's Nginx plugin for Webmin"
 pluginname="nginx"
 url="http://www.justindhoffman.com/blog/nginx-module/"
 license=('gpl')
 arch=('i686' 'x86_64')
 depends=('webmin')
-install=webmin-${pluginname}-plugin.install
+install=webmin-plugin-${pluginname}.install
 source=(http://www.justindhoffman.com/blog/wp-content/uploads/2010/06/nginx-0.05b.wbm_.gz)
 md5sums=('6835071549c4022fffaa742978a3c608')
 
